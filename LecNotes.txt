@@ -1,0 +1,71 @@
+Software Development Life Cycle(SDLC):
+=======================================
+1. Analysis ( User Problems , Requirement Gathering )
+2. Planning "Vision & Mission" 
+3. Design:
+	- Architecture Design (System): Language, OS, Desktop/Web/Mobile, Cloud, Team...
+	- Database Design: DBMS, ERD
+	- UI Design: (UI / UX)  : UX (User Friendly , Speed)
+4. Implementation (Coding / Development)
+5. Testing: aim V & V ( Verification & Validation )
+6. Production ( Deployment / Release )
+7. Maintenance:
+	- Fix Errors ( Solve Bugs / Logic.... )
+	- Update (  Add new feature / Add new module )
+	- Upgrade System ( Cope with new tech. )
+8. Documentation
+-------------------------------------------------------------------------------------------
+Program (instructions & Data )
+Platform = H/W + OS 
+C: Platform Dependent   
+---------------------------------------------
+Program Life Cycle (C):
+======================
+- Editing (Create/Modify) source code
+- Compiling (check errors / translate & generate native code 0/1)
+- Linking (link functions with libraries)
+- Executing (Run Program)
+
+Error Types:
+=============
+0. Warnings
+1- Compilation Errors:  (Syntax / Semantic)
+2- Linking Errors
+3. Runtime Errors
+4. Logic Errors
+
+Escape Sequences:
+=================
+\n  -->  new Line
+\r --> carriage return
+\t  -->  horizontal tab
+\v  --> vertical tab
+\b --> backspace
+\a --> insert a bell (Alert)
+
+DataTypes in C:
+================
+* Basic Data Types:
+- Numeric : 200, 5, 3000000, -44, 232423435345	
+	short: 2 byte   ( 0 : 65353 or -32767 to +32768 )
+	int: 4 byte
+	long: 8 byte
+- Fractions: 2.5 , -3.4 , 12.8
+	float: 4 byte
+	double: 8 byte
+- Charchters: char 1 byte 'A', 'a' , 'Y'
+* Enum
+* Void Type: indicated "No value" available
+* Derived data types:
+	- Struct
+	- Arrays
+	- Pointers
+
+Format Specifiers:
+===================
+int  %d, %i
+long int %l
+float %f
+double %lf
+char %c
+
